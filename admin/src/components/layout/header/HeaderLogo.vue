@@ -1,7 +1,6 @@
 <template>
-  <router-link to="/" class="lg:hidden">
-    <img class="dark:hidden" src="/images/logo/logo.svg" alt="Logo" />
-    <img class="hidden dark:block" src="/images/logo/logo-dark.svg" alt="Logo" />
+  <router-link to="/" class="lg:hidden flex items-center justify-center">
+    <img src="/images/logo/logo-bioclinik.png" alt="Bioclinik Logo" class="h-8 w-auto object-contain" />
   </router-link>
 </template>
 
