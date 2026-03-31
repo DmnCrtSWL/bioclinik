@@ -96,7 +96,8 @@ const handleLogin = async () => {
     
     // Redirigir al inicio del panel
     router.push('/usuarios')
-  } catch (error) {
+  } catch (err) {
+    const error = err as any
     errorMsg.value = error.message || 'Error al iniciar sesión'
   } finally {
     loading.value = false
